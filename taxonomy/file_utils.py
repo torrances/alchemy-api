@@ -20,16 +20,18 @@ def getfiles(path, ext, verbose=True) :
         print ("!Input Path does not exist (input_path = {0})".format(input_path))
       return []
    
+    matches = []
+
     if os.path.isdir(input_path) == 0 :
       if verbose :
         print ("*Input Path is Valid (input_path = {0})".format(input_path))
-      return input_path
+      matches.append(input_path)
+      return matches
 
-    matches = []
     for root, dirs, files in os.walk(path, topdown=False):
       for filename in fnmatch.filter(files, "*." + ext):
         matches.append(os.path.join(root, filename))
-             
+
     if len(matches) > 0 :
       if verbose :
         # used <http://stackoverflow.com/questions/3395138/using-multiple-arguments-for-string-formatting-in-python-e-g-s-s>

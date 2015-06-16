@@ -46,7 +46,7 @@ for file in file_utils.getfiles(args.input, "txt", True) :
 	text = "";
 
 	fname = file.split("/")[-1]
-	print("*Input Filename is {0}".format(fname))
+	print("*Input Filename is {0} from file {1}".format(fname, file))
 
 	target = open("{0}/{1}.tsv".format(args.output, fname), "w+")
 
