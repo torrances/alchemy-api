@@ -12,6 +12,7 @@ group.add_argument("-v", "--verbose", action="store_true")
 group.add_argument("-q", "--quiet", action="store_true")  
 parser.add_argument("input", help="The input path to an AlchemyAPI Taxonomy TSV Output file")  
 parser.add_argument("output", help="The output path for writing (exporting).")  
+parser.add_argument("threshold", help="The minimum threshold for a value to be useful.", type=float)  
 args = parser.parse_args()
 
 infile = args.input
@@ -35,8 +36,11 @@ for line in lines:
 	taxonomy = taxonomy.replace(" ", "_")
 
 	score = line.split("\t")[0]
+	if float(score) < args.threshold : 
+		continue
 
 	for entity in taxonomy[1:].split("/") : 
+		print("*Score meets threshold {0} >= {1} for {2}".format(score, args.threshold, entity))
 		if entity in dict :
 			dict[entity] = float(dict[entity]) + float(score)
 		else:
@@ -51,7 +55,8 @@ for entity in dict :
 	pos = score.find("e")
 	if pos != -1 : 
 		score = score[:pos]
-	graph.write("\t{0} [shape=ellipse, height={1}];\n".format(entity, score))
+	if float(score) >= args.threshold : 
+		graph.write("\t{0} [shape=ellipse, height={1}];\n".format(entity, score))
 
 graph.write("}")
 
