@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 
 api_key.txt
+taxonomy/data/out/*
 
 # C extensions
 *.so

@@ -17,6 +17,9 @@ args = parser.parse_args()
 infile = args.input
 outfile = "{0}.d".format(args.output)
 
+print("*Input Path is {0}".format(infile))
+print("*Output Path is {0}".format(outfile))
+
 file = open(infile)
 graph = open(outfile, "w+")
 graph.write("digraph temp {\n")
@@ -54,7 +57,3 @@ graph.write("}")
 
 graph.close
 file.close
-
-# create graph
-print(outfile)
-# dot -Tpng -O str(outfile)
