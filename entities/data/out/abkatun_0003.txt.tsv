@@ -1,0 +1,59 @@
+b'Sierra de Chiapas'	GeographicFeature	0.33	neutral
+b'SE Mexico'	StateOrCounty	0.33	neutral
+b'Isthmus Saline Basin'	GeographicFeature	0.33	neutral
+b'Lower Cretaceous'	GeographicFeature	0.33	neutral
+b'Cerro de Nachital'	GeographicFeature	0.33	neutral
+b'Yucatan Peninsula'	GeographicFeature	0.33	negative
+b'Cretaceous reef'	GeographicFeature	0.33	neutral
+b'Sierra de Chiapas'	GeographicFeature	0.33	negative
+b'backreef facies'	GeographicFeature	0.33	neutral
+b'Villahermosa'	City	0.33	neutral
+b'1969-70'	City	0.33	neutral
+b'Campeche'	City	0.33	neutral
+b'Sitio Grande'	GeographicFeature	0.33	neutral
+b'oil fields'	FieldTerminology	0.33	neutral
+b'Reforma'	City	0.33	neutral
+b'Cretaceous Sierra Madre Limestone'	GeographicFeature	0.33	neutral
+b'Mexico'	Country	0.33	neutral
+b'Gulf of Campeche'	GeographicFeature	0.33	neutral
+b'Campeche'	City	0.33	neutral
+b'dolomite breccia reservoir'	GeographicFeature	0.33	neutral
+b'Akal block'	GeographicFeature	0.33	negative
+b'BBO STOUP Cantarell Complex'	Facility	0.33	neutral
+b'Ixtoc Field'	Facility	0.33	neutral
+b'Ku-Maloob-Zaap Complex'	Facility	0.33	neutral
+b'Cantarell Formation'	GeographicFeature	0.33	neutral
+b'1977-79'	City	0.33	neutral
+b'Campeche'	City	0.33	neutral
+b'Ek-Balam Field'	Facility	0.33	neutral
+b'Oxfordian'	City	0.33	neutral
+b'Caan Field'	Facility	0.33	neutral
+b'Cantarell Formation'	GeographicFeature	0.33	neutral
+b'Campeche'	City	0.33	neutral
+b'Gulf of Campeche'	GeographicFeature	0.33	neutral
+b'Abkatun Field'	Facility	0.33	positive
+b'Cantarell Complex'	Facility	0.33	neutral
+b'20 km'	Quantity	0.33	neutral
+b'Upper Jurassic'	GeographicFeature	0.33	neutral
+b'700 m'	Quantity	0.01	neutral
+b'Cantarell Formation'	GeographicFeature	0.33	neutral
+b'BOPD'	City	0.33	neutral
+b'Pol Field'	Facility	0.33	neutral
+b'Chuc Field'	Facility	0.33	neutral
+b'Abkatun Field'	Facility	0.33	neutral
+b'Abkatun Field'	Facility	0.33	neutral
+b'Pol Field'	Organization	0.33	neutral
+b'Chuc Field'	Facility	0.33	neutral
+b'Abkatun Field'	Facility	0.33	neutral
+b'Campeche Shelf'	Facility	0.33	neutral
+b'Gulf of Mexico'	GeographicFeature	0.33	neutral
+b'Yucatan'	Region	0.33	neutral
+b'40 m'	Quantity	0.33	neutral
+b'Campeche Shelf'	Facility	0.33	neutral
+b'Comalcalco Basin'	GeographicFeature	0.33	neutral
+b'Sierra de Chiapas'	GeographicFeature	0.33	neutral
+b'Chiapas Massif'	GeographicFeature	0.33	neutral
+b'Campeche Shelf'	Facility	0.33	negative
+b'Campeche'	City	0.33	neutral
+b'Yucatan'	Region	0.33	neutral
+b'200 m'	Quantity	0.33	neutral
